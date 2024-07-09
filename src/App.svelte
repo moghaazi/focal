@@ -1,10 +1,16 @@
 <script>
-  // import Swiper JS
-  import Swiper from 'swiper'
-  // import Swiper styles
-  import 'swiper/css'
+  import { register } from 'swiper/element/bundle'
 
-  const swiper = new Swiper('.swiper', {})
+  register()
+
+  const spaceBetween = 10
+  const onProgress = e => {
+    const [swiper, progress] = e.detail
+    console.log(progress)
+  }
+  const onSlideChange = e => {
+    console.log('slide changed')
+  }
 </script>
 
 <header class="container">
@@ -30,5 +36,37 @@
 
   <div class="hero">
     <h1 class="text-red">Hero</h1>
+
+    <swiper-container
+      slides-per-view={3}
+      space-between={spaceBetween}
+      centered-slides={true}
+      pagination={{
+        hideOnClick: true,
+      }}
+      breakpoints={{
+        768: {
+          slidesPerView: 3,
+        },
+      }}
+      on:swiperprogress={onProgress}
+      on:swiperslidechange={onSlideChange}
+    >
+      <swiper-slide>
+        <img src="https://placehold.co/600x400" alt="" />
+      </swiper-slide>
+
+      <swiper-slide>
+        <img src="https://placehold.co/600x300" alt="" />
+      </swiper-slide>
+
+      <swiper-slide>
+        <img src="https://placehold.co/600x400" alt="" />
+      </swiper-slide>
+
+      <swiper-slide>
+        <img src="https://placehold.co/600x300" alt="" />
+      </swiper-slide>
+    </swiper-container>
   </div>
 </header>
