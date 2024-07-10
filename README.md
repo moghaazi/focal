@@ -1,2 +1,2 @@
-# focal
- 
+# npm i
+# npm run dev
