@@ -17,46 +17,9 @@ html {
 body {
   box-sizing: border-box;
   overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: #121212;
+  background-color: #111;
   color: white;
   font: bold 1.5rem 'Roboto', sans-serif;
-  margin-top: 2rem;
-}
-
-.container,
-.container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
 }
 
 :root {
