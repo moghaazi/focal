@@ -1,2 +1,1 @@
-# npm i
-# npm run dev
+![alt text](/src/assets/demo.png)
