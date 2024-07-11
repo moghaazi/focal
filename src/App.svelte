@@ -22,7 +22,7 @@
   <nav class="flex justify-between items-center h-32 bg-black p-4">
     <div>
       <img
-        src="/public/logo-focal.avif"
+        src="/logo-focal.avif"
         width="95"
         height="19"
         alt="logo"
@@ -60,10 +60,10 @@
     </div>
 
     <div class="flex gap-10 mr-10">
-      <img src="/src/assets/buttons/empty-email.png" alt="email" class="w-8 h-7 cursor-pointer" />
-      <img src="/src/assets/buttons/search-interface-symbol.png" alt="email" class="w-8 h-7 cursor-pointer" />
-      <img src="/src/assets/buttons/user-profile.png" alt="email" class="w-8 h-7 cursor-pointer" />
-      <img src="/src/assets/buttons/shopping-bag.png" alt="email" class="w-8 h-7 cursor-pointer" />
+      <img src="/buttons/empty-email.png" alt="email" class="w-8 h-7 cursor-pointer" />
+      <img src="/buttons/search-interface-symbol.png" alt="email" class="w-8 h-7 cursor-pointer" />
+      <img src="/buttons/user-profile.png" alt="email" class="w-8 h-7 cursor-pointer" />
+      <img src="/buttons/shopping-bag.png" alt="email" class="w-8 h-7 cursor-pointer" />
     </div>
     
   </nav>
@@ -155,6 +155,9 @@
 
 
 <style>
+.swiper-container {
+    cursor: grab;
+}
 
 
 
