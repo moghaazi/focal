@@ -22,7 +22,7 @@
   <nav class="flex justify-between items-center h-32 bg-black p-4">
     <div>
       <img
-        src="/src/assets/logo-focal.avif"
+        src="/public/logo-focal.avif"
         width="95"
         height="19"
         alt="logo"
