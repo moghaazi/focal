@@ -92,7 +92,7 @@
     >
     
     <swiper-slide class="relative">
-      <img src="/src/assets/slider/heritage-lp-3.webp" alt="" class="w-full" />
+      <img src="/slider/heritage-lp-3.webp" alt="" class="w-full" />
       <div class="absolute inset-0 flex items-center justify-start p-8">
         <div class="flex flex-col items-start">
           <span class="text-white text-4xl mb-4 uppercase">Premium Collection</span>
@@ -107,8 +107,8 @@
     </swiper-slide>
 
     <swiper-slide class="relative">
-      <img src="/src/assets/slider/sage1-desktop.webp" class="w-2/4" alt="" />
-      <img src="/src/assets/slider/sage2-desktop.webp" class="w-2/4" alt="" />
+      <img src="/slider/sage1-desktop.webp" class="w-2/4" alt="" />
+      <img src="/slider/sage2-desktop.webp" class="w-2/4" alt="" />
       <div class="absolute inset-0 flex items-center justify-center p-8">
         <div class="flex flex-col items-center uppercase">
           <span class="text-white text-4xl mb-4 uppercase">meet the</span>
@@ -119,7 +119,7 @@
     </swiper-slide>
     
     <swiper-slide class="relative">
-      <img src="/src/assets/slider/tom-dixon-lp-tile-1.webp" alt="" class="w-full" />
+      <img src="/slider/tom-dixon-lp-tile-1.webp" alt="" class="w-full" />
       <div class="absolute inset-0 flex items-center justify-start p-8">
         <div class="flex flex-col items-start">
           <span class="text-white text-4xl mb-4 uppercase">charge anywhere, anytime</span>
@@ -134,7 +134,7 @@
     </swiper-slide>
 
     <swiper-slide class="relative">
-      <img src="/src/assets/slider/mk-lp-tile-1.webp" alt="" class="w-full" />
+      <img src="/slider/mk-lp-tile-1.webp" alt="" class="w-full" />
       <div class="absolute inset-0 flex items-center justify-start p-8">
         <div class="flex flex-col items-start">
           <span class="text-black text-4xl mb-4 uppercase">charge anywhere, anytime</span>
